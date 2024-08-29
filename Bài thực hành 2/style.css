@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    background-color: #4B9CD3;
+    border: 3px dashed red;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFA500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+.content {
+    background-color: #32CD32;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 3px dashed red;
+}
+
+.content img {
+    object-fit: cover;
+    float: left;
+    padding-right: 10px;
+}
+
+.content p {
+    color: #ff0;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'sans-serif';
+    box-sizing: border-box;
+}
+
+.container {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    width: 410px;
+    border-bottom-right-radius: 10px;
+}
+
+.header {
+    background-color: #f8f1f7;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.list {
+    margin: 10px 5px;
+}
+
+.item {
+    color: #783f77;
+    font-size: 18px;
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.poem {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.title {
+    text-align: center;
+    color: #3366cc;
+    margin-bottom: 20px;
+    text-shadow: -2px 2px 2px #3366cc;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+p.reverse {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    color: #666;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.blue {
+    color: #308bcb;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav,
+header {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+
+}
+
+header {
+    background-color: #223771;
+    padding: 15px 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.navbar + .navbar {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}
